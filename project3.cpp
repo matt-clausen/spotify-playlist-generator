@@ -16,9 +16,7 @@ using namespace std;
 
 map<string, int> ATTRIBUTES = {{"valence",0}, {"year",1}, {"acousticness",2},  {"danceability",3}, {"duration",4}, {"energy",5}, 
                             {"instrumentalness",6}, {"key",7}, {"liveness",8}, {"loudness",9}, {"mode",10},  
-                           {"popularity",11}, {"speechiness",12}, {"tempo",13}};
-
-int NUM_SONGS = 20;                        
+                           {"popularity",11}, {"speechiness",12}, {"tempo",13}};                      
 
 
 struct Song {
