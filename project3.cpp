@@ -12,8 +12,6 @@
 
 using namespace std;
 
-// Attributes assumed to start at 0 below, SHOULD NOT CONTAIN artists, id, name
-
 map<string, int> ATTRIBUTES = {{"valence",0}, {"year",1}, {"acousticness",2},  {"danceability",3}, {"duration",4}, {"energy",5}, 
                             {"instrumentalness",6}, {"key",7}, {"liveness",8}, {"loudness",9}, {"mode",10},  
                            {"popularity",11}, {"speechiness",12}, {"tempo",13}};                      
